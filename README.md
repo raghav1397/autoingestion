@@ -1,4 +1,4 @@
-# autoingestion
+# Auto ingestion from MySQL to Hive
 
 The increase in large amounts of data is generated incessantly thus industries encounter difficulties. MySQL 
 is one of the main databases from which data are injected into Hive. Automatic input is performed to update 
