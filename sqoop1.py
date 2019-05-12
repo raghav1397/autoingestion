@@ -18,6 +18,6 @@ cursor.execute("INSERT OVERWRITE TABLE test2 SELECT *, ROW_NUMBER()OVER(PARTITIO
 cursor.execute("INSERT OVERWRITE TABLE test2 select * from test2 where RowNumber=1 order by timething")
 print("0");	   
 cursor.execute("insert overwrite table test1 select timething,id,temp,hum,moist,atm,time from test2 order by timething")
-call(["python","/home/cloudera/Desktop/auto2.py"])
+call(["python","/home/cloudera/Desktop/sql1.py"])
 time.sleep(1)
 	
